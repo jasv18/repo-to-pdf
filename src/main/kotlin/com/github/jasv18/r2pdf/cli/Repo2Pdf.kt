@@ -5,11 +5,8 @@ import com.github.ajalt.clikt.parameters.arguments.argument
 import com.github.ajalt.clikt.parameters.options.help
 import com.github.ajalt.clikt.parameters.options.multiple
 import com.github.ajalt.clikt.parameters.options.option
-import com.github.jasv18.r2pdf.core.CustomFileVisitor
-import com.github.jasv18.r2pdf.core.FileFilter
 import com.github.jasv18.r2pdf.core.FileScanner
 import com.github.jasv18.r2pdf.core.PdfGenerator
-import java.nio.file.Files
 import java.nio.file.Paths
 
 class Repo2Pdf: CliktCommand(name = "Convert repositories to pdf/text files.") {
